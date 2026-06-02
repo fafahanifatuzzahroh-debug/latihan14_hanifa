@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    background:#0d0b13;
+    color:white;
+    font-family:Segoe UI;
+}
+
+.topbar{
+    background:#1a1326;
+    padding:10px 20px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+button{
+    background:#c084fc;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.container{
+    display:flex;
+}
+
+#world{
+    background:#0f172a;
+    border-right:2px solid #7c3aed;
+}
+
+.panel{
+    width:320px;
+    padding:10px;
+}
+
+.panel canvas{
+    background:#151122;
+    border:1px solid #7c3aed;
+    margin-bottom:20px;
+}

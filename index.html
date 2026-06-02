@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NeuroEvolution Drone Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+    <h2>🧠 NeuroEvolution Drone Simulator</h2>
+
+    <div class="stats">
+        <span>Generasi: <b id="gen">1</b></span>
+        <span>Terbaik: <b id="best">0</b></span>
+    </div>
+
+    <button id="clearBtn">Hapus Rintangan</button>
+</div>
+
+<div class="container">
+
+    <canvas id="world" width="900" height="600"></canvas>
+
+    <div class="panel">
+
+        <h3>Neural Network Aktif</h3>
+        <canvas id="brain" width="300" height="250"></canvas>
+
+        <h3>Grafik Evolusi</h3>
+        <canvas id="chart" width="300" height="250"></canvas>
+
+        <p>
+            Klik & drag pada arena untuk menggambar rintangan.
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
